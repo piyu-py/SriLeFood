@@ -54,40 +54,40 @@ body{
     background-color: rgb(255, 205, 253);
 }
 #rolls {
-    background: url('/rolls.svg') no-repeat top left;
+    background: url(rolls.svg) no-repeat top left;
     background-position: center;
 }
 #patties{
-    background: url('/patties.svg') no-repeat top left;
+    background: url(patties.svg) no-repeat top left;
     background-position: center;
 }
 #cutlet{
-    background: url('/cutlet.svg') no-repeat top left;
+    background: url(cutlet.svg) no-repeat top left;
     background-position: center;
 }
 #sandwich{
-    background: url('/sandwich.svg') no-repeat top left;
+    background: url(sandwich.svg) no-repeat top left;
     background-position: center;
 }#string {
-    background: url('/string.svg') no-repeat top left;
+    background: url(string.svg) no-repeat top left;
     background-position: center;
 }
 #pasta{
-    background: url('/pasta.svg') no-repeat top left;
+    background: url(pasta.svg) no-repeat top left;
     background-position: center;
 }#noodles {
-    background: url('/noodles.svg') no-repeat top left;
+    background: url(noodles.svg) no-repeat top left;
     background-position: center;
 }
 #rice{
-    background: url('/rice.svg') no-repeat top left;
+    background: url(rice.svg) no-repeat top left;
     background-position: center;
 }#icecream {
-    background: url('/icecream.svg') no-repeat top left;
+    background: url(icecream.svg) no-repeat top left;
     background-position: center;
 }
 #hotdawg{
-    background: url('/hotdog.svg') no-repeat top left;
+    background: url(hotdog.svg) no-repeat top left;
     background-position: center;
 }
 #credits{
