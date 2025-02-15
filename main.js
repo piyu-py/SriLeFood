@@ -1,7 +1,7 @@
 let total=0
 let paid=0
 let balance=0
-let itemprice = [90,50,40,150,100,150,150,450,100,280]
+let itemprice = [70,50,30,100,100,150,120,100,70,80]
 let quantity = [0,0,0,0,0,0,0,0,0,0]
 
 
@@ -16,9 +16,9 @@ function updatetotalboxandbalance(){
     totalbox.innerHTML= `Total: ${total} <br> Paid: ${paid}`
     balance= paid-total
     if (balance<0){
-        balancedisplay.style.color='red'
+        balancedisplay.style.color='#f53025'
     }else{
-        balancedisplay.style.color='green'
+        balancedisplay.style.color='#2da12d'
     }
     balancedisplay.innerHTML = Math.abs(balance)
 }

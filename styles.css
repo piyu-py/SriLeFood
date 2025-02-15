@@ -1,94 +1,122 @@
 body{
-    background-color: aqua;
-    height: 100%;
+    background-color:  #fcf5c7;
+    height: 100vh;
     margin: 0%;
+    margin-left: 5vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #foodcontainer{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30vw 30vw 30vw;
 }
 .items{
     aspect-ratio: 1;
-    background-color: rgb(130, 18, 236);
-    border: 1px solid white;
-    max-width: 33vw;
+    border: 3px solid #5c5c5c;
+    max-width: 30vw;
     text-align: end;
+    border-radius: 10%;
+    margin: .3vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 #clear , #total {
+    margin: .3vw;
+    border-radius: 10%;
     aspect-ratio: 1;
-    background-color: rgb(241, 248, 30);
-    border: 1px solid white;
-    max-width: 33vw;
+    background-color: #ffee93;
+    border: 3px solid #b58d15;
+    max-width: 30vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #moneycontainer{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
 }
 .notes{
-    background-color: rgb(91, 255, 91);
+    border: rgb(94, 94, 167) 2px solid;
+    margin: .1vw;
+    border-radius: 5%;
+    background-color: #a0ced9;
     aspect-ratio: 1/2;
-    max-width: 16.666vw;
+    max-width: 15vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 #caesohcontiner{
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    justify-content: center;
 }
 #balance{
-    height: 44vw;
+    font-size:x-large;
+    height: 40vw;
+    border-radius: 5%;
+    margin: 2vw;
+    max-width: 86vw;
 }
 #balanceamount{
     text-align: center;
 }
 #balance{
+    border: rgb(255, 140, 0) 5px solid;
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: center;
-    background-color: rgb(255, 205, 253);
+    background-color: #ffc09f;
 }
 #rolls {
     background: url(rolls.svg) no-repeat top left;
     background-position: center;
+    background-color: #adf7b6;
 }
 #patties{
     background: url(patties.svg) no-repeat top left;
     background-position: center;
+    background-color: #adf7b6;
 }
 #cutlet{
     background: url(cutlet.svg) no-repeat top left;
     background-position: center;
+    background-color: #adf7b6;
 }
 #sandwich{
     background: url(sandwich.svg) no-repeat top left;
     background-position: center;
+    background-color: #adf7b6;
 }#string {
     background: url(string.svg) no-repeat top left;
     background-position: center;
+    background-color: #adf7b6;
 }
 #pasta{
-    background: url(pasta.svg) no-repeat top left;
+    background: url(dosa.png) no-repeat top left;
     background-position: center;
+    background-size: 60%;
+    background-color: #adf7b6;
 }#noodles {
     background: url(noodles.svg) no-repeat top left;
     background-position: center;
+    background-color: #adf7b6;
 }
 #rice{
-    background: url(rice.svg) no-repeat top left;
+    background: url(roti.png) no-repeat top left;
+    background-size: 70%;
     background-position: center;
+    background-color: #adf7b6;
 }#icecream {
-    background: url(icecream.svg) no-repeat top left;
+    background: url(pancakes.png) no-repeat top left;
     background-position: center;
+    background-size: 60%;
+    background-color: #adf7b6;
 }
 #hotdawg{
-    background: url(hotdog.svg) no-repeat top left;
+    background: url(kanda.png) no-repeat top left;
     background-position: center;
+    background-color: #adf7b6;
+    background-size: 70%;
 }
 #credits{
     background-color: beige;
