@@ -46,7 +46,6 @@ body{
 #caesohcontiner{
     display: flex;
     flex-direction: column;
-    height: 100vh;
     justify-content: center;
 }
 #balance{
@@ -97,8 +96,9 @@ body{
     background-size: 60%;
     background-color: #adf7b6;
 }#noodles {
-    background: url(noodles.svg) no-repeat top left;
+    background: url(kiribath.svg) no-repeat top left;
     background-position: center;
+    background-size: 80%;
     background-color: #adf7b6;
 }
 #rice{
@@ -120,4 +120,22 @@ body{
 }
 #credits{
     background-color: beige;
+}
+#chickpea{
+    background: url(chickpea.svg) no-repeat top left;
+    background-position: center;
+    background-color: #adf7b6;
+    background-size: 70%;
+}
+#sinisambal{
+    background: url(sinisambola.svg) no-repeat top left;
+    background-position: center;
+    background-color: #adf7b6;
+    background-size: 70%;
+}
+#kurakkan{
+    background: url(kurakkan.png) no-repeat top left;
+    background-position: center;
+    background-color: #adf7b6;
+    background-size: 70%;
 }

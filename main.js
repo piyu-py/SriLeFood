@@ -1,8 +1,8 @@
 let total=0
 let paid=0
 let balance=0
-let itemprice = [70,50,30,100,100,150,120,100,70,80]
-let quantity = [0,0,0,0,0,0,0,0,0,0]
+let itemprice = [70,50,30,100,100,150,120,100,70,80,80,80,80]
+let quantity = [0,0,0,0,0,0,0,0,0,0,0,0,0]
 
 
 let totalbox =document.querySelector("#total")
@@ -38,7 +38,7 @@ clearbtn.addEventListener("click",function(){
     itemlist.forEach(function(elem){
         elem.innerHTML=0
     })
-    quantity = [0,0,0,0,0,0,0,0,0,0]
+    quantity = [0,0,0,0,0,0,0,0,0,0,0,0,0]
     total=0
     paid=0
     updatetotalboxandbalance()
