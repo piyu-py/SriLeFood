@@ -1,141 +1,147 @@
-body{
-    background-color:  #fcf5c7;
-    height: 100vh;
-    margin: 0%;
-    margin-left: 5vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body {
+  background-color: #fcf5c7;
+  height: 100vh;
+  margin: 0%;
+  margin-left: 5vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-#foodcontainer{
-    display: grid;
-    grid-template-columns: 30vw 30vw 30vw;
+#foodcontainer {
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
 }
-.items{
-    aspect-ratio: 1;
-    border: 3px solid #5c5c5c;
-    max-width: 30vw;
-    text-align: end;
-    border-radius: 10%;
-    margin: .3vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+.items {
+  aspect-ratio: 1;
+  border: 3px solid #5c5c5c;
+  max-width: 30vw;
+  text-align: end;
+  border-radius: 10%;
+  margin: 0.3vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-#clear , #total {
-    margin: .3vw;
-    border-radius: 10%;
-    aspect-ratio: 1;
-    background-color: #ffee93;
-    border: 3px solid #b58d15;
-    max-width: 30vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+#clear,
+#total {
+  margin: 0.3vw;
+  border-radius: 10%;
+  aspect-ratio: 1;
+  background-color: #ffee93;
+  border: 3px solid #b58d15;
+  max-width: 30vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-#moneycontainer{
-    display: grid;
-    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
+#moneycontainer {
+  display: grid;
+  grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
 }
-.notes{
-    border: rgb(94, 94, 167) 2px solid;
-    margin: .1vw;
-    border-radius: 5%;
-    background-color: #a0ced9;
-    aspect-ratio: 1/2;
-    max-width: 15vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+.notes {
+  border: rgb(94, 94, 167) 2px solid;
+  margin: 0.1vw;
+  border-radius: 5%;
+  background-color: #a0ced9;
+  aspect-ratio: 1/2;
+  max-width: 15vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
-#caesohcontiner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#caesohcontiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-#balance{
-    font-size:x-large;
-    height: 40vw;
-    border-radius: 5%;
-    margin: 2vw;
-    max-width: 86vw;
+#balance {
+  font-size: x-large;
+  height: 40vw;
+  border-radius: 5%;
+  margin: 2vw;
+  max-width: 86vw;
 }
-#balanceamount{
-    text-align: center;
+#balanceamount {
+  text-align: center;
 }
-#balance{
-    border: rgb(255, 140, 0) 5px solid;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-    background-color: #ffc09f;
+#balance {
+  border: rgb(255, 140, 0) 5px solid;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  background-color: #ffc09f;
 }
 #rolls {
-    background: url(rolls.svg) no-repeat top left;
-    background-position: center;
-    background-color: #adf7b6;
+  background: url(rolls.svg) no-repeat top left;
+  background-position: center;
+  background-color: #adf7b6;
 }
-#patties{
-    background: url(patties.svg) no-repeat top left;
-    background-position: center;
-    background-color: #adf7b6;
+#patties {
+  background: url(patties.svg) no-repeat top left;
+  background-position: center;
+  background-color: #adf7b6;
 }
-#cutlet{
-    background: url(cutlet.svg) no-repeat top left;
-    background-position: center;
-    background-color: #adf7b6;
+#cutlet {
+  background: url(cutlet.svg) no-repeat top left;
+  background-position: center;
+  background-color: #adf7b6;
 }
-#sandwich{
-    background: url(sandwich.svg) no-repeat top left;
-    background-position: center;
-    background-color: #adf7b6;
-}#string {
-    background: url(string.svg) no-repeat top left;
-    background-position: center;
-    background-color: #adf7b6;
+#sandwich {
+  background: url(sandwich.svg) no-repeat top left;
+  background-position: center;
+  background-color: #adf7b6;
 }
-#pasta{
-    background: url(dosa.png) no-repeat top left;
-    background-position: center;
-    background-size: 60%;
-    background-color: #adf7b6;
-}#noodles {
-    background: url(kiribath.svg) no-repeat top left;
-    background-position: center;
-    background-size: 80%;
-    background-color: #adf7b6;
+#string {
+  background: url(string.svg) no-repeat top left;
+  background-position: center;
+  background-color: #adf7b6;
 }
-#rice{
-    background: url(roti.png) no-repeat top left;
-    background-size: 70%;
-    background-position: center;
-    background-color: #adf7b6;
-}#icecream {
-    background: url(pancakes.png) no-repeat top left;
-    background-position: center;
-    background-size: 60%;
-    background-color: #adf7b6;
+#pasta {
+  background: url(dosa.png) no-repeat top left;
+  background-position: center;
+  background-size: 60%;
+  background-color: #adf7b6;
 }
-#hotdawg{
-    background: url(kanda.png) no-repeat top left;
-    background-position: center;
-    background-color: #adf7b6;
-    background-size: 70%;
+#noodles {
+  background: url(kiribath.svg) no-repeat top left;
+  background-position: center;
+  background-size: 80%;
+  background-color: #adf7b6;
 }
-#credits{
-    background-color: beige;
+#rice {
+  background: url(roti.png) no-repeat top left;
+  background-size: 70%;
+  background-position: center;
+  background-color: #adf7b6;
 }
-#chickpea{
-    background: url(chickpea.svg) no-repeat top left;
-    background-position: center;
-    background-color: #adf7b6;
-    background-size: 70%;
+#icecream {
+  background: url(pancakes.png) no-repeat top left;
+  background-position: center;
+  background-size: 60%;
+  background-color: #adf7b6;
 }
-#sinisambal{
-    background: url(sinisambola.svg) no-repeat top left;
-    background-position: center;
-    background-color: #adf7b6;
-    background-size: 70%;
+#hotdawg {
+  background: url(kanda.png) no-repeat top left;
+  background-position: center;
+  background-color: #adf7b6;
+  background-size: 70%;
 }
-#kurakkan{
-    background: url(kurakkan.png) no-repeat top left;
-    background-position: center;
-    background-color: #adf7b6;
-    background-size: 70%;
+#credits {
+  background-color: beige;
+}
+#chickpea {
+  background: url(chickpea.svg) no-repeat top left;
+  background-position: center;
+  background-color: #adf7b6;
+  background-size: 70%;
+}
+#sinisambal {
+  background: url(sinisambola.svg) no-repeat top left;
+  background-position: center;
+  background-color: #adf7b6;
+  background-size: 70%;
+}
+#kurakkan {
+  background: url(kurakkan.png) no-repeat top left;
+  background-position: center;
+  background-color: #adf7b6;
+  background-size: 70%;
 }
