@@ -70,56 +70,56 @@ body {
   background-color: #ffc09f;
 }
 #rolls {
-  background: url(rolls.svg) no-repeat top left;
+  background: url(images/rolls.svg) no-repeat top left;
   background-position: center;
   background-color: #adf7b6;
 }
 #patties {
-  background: url(patties.svg) no-repeat top left;
+  background: url(images/patties.svg) no-repeat top left;
   background-position: center;
   background-color: #adf7b6;
 }
 #cutlet {
-  background: url(cutlet.svg) no-repeat top left;
+  background: url(images/cutlet.svg) no-repeat top left;
   background-position: center;
   background-color: #adf7b6;
 }
 #sandwich {
-  background: url(sandwich.svg) no-repeat top left;
+  background: url(images/sandwich.svg) no-repeat top left;
   background-position: center;
   background-color: #adf7b6;
 }
 #string {
-  background: url(string.svg) no-repeat top left;
+  background: url(images/string.svg) no-repeat top left;
   background-position: center;
   background-color: #adf7b6;
 }
 #pasta {
-  background: url(dosa.png) no-repeat top left;
+  background: url(images/dosa.png) no-repeat top left;
   background-position: center;
   background-size: 60%;
   background-color: #adf7b6;
 }
 #noodles {
-  background: url(kiribath.svg) no-repeat top left;
+  background: url(images/kiribath.svg) no-repeat top left;
   background-position: center;
   background-size: 80%;
   background-color: #adf7b6;
 }
 #rice {
-  background: url(roti.png) no-repeat top left;
+  background: url(images/roti.png) no-repeat top left;
   background-size: 70%;
   background-position: center;
   background-color: #adf7b6;
 }
 #icecream {
-  background: url(pancakes.png) no-repeat top left;
+  background: url(images/pancakes.png) no-repeat top left;
   background-position: center;
   background-size: 60%;
   background-color: #adf7b6;
 }
 #hotdawg {
-  background: url(kanda.png) no-repeat top left;
+  background: url(images/kanda.png) no-repeat top left;
   background-position: center;
   background-color: #adf7b6;
   background-size: 70%;
@@ -128,19 +128,19 @@ body {
   background-color: beige;
 }
 #chickpea {
-  background: url(chickpea.svg) no-repeat top left;
+  background: url(images/chickpea.svg) no-repeat top left;
   background-position: center;
   background-color: #adf7b6;
   background-size: 70%;
 }
 #sinisambal {
-  background: url(sinisambola.svg) no-repeat top left;
+  background: url(images/sinisambola.svg) no-repeat top left;
   background-position: center;
   background-color: #adf7b6;
   background-size: 70%;
 }
 #kurakkan {
-  background: url(kurakkan.png) no-repeat top left;
+  background: url(images/kurakkan.png) no-repeat top left;
   background-position: center;
   background-color: #adf7b6;
   background-size: 70%;
