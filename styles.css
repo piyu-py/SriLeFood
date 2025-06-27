@@ -95,31 +95,31 @@ body {
   background-color: #adf7b6;
 }
 #pasta {
-  background: url(images/dosa.png) no-repeat top left;
+  background: url(images/pasta.svg) no-repeat top left;
   background-position: center;
   background-size: 60%;
   background-color: #adf7b6;
 }
 #noodles {
-  background: url(images/kiribath.svg) no-repeat top left;
+  background: url(images/noodles.svg) no-repeat top left;
   background-position: center;
   background-size: 80%;
   background-color: #adf7b6;
 }
 #rice {
-  background: url(images/roti.png) no-repeat top left;
+  background: url(images/rice.svg) no-repeat top left;
   background-size: 70%;
   background-position: center;
   background-color: #adf7b6;
 }
 #icecream {
-  background: url(images/pancakes.png) no-repeat top left;
+  background: url(images/icecream.svg) no-repeat top left;
   background-position: center;
   background-size: 60%;
   background-color: #adf7b6;
 }
 #hotdawg {
-  background: url(images/kanda.png) no-repeat top left;
+  background: url(images/hotdog.svg) no-repeat top left;
   background-position: center;
   background-color: #adf7b6;
   background-size: 70%;
