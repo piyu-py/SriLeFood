@@ -48,7 +48,6 @@ body {
 .items,
 #clear,
 #total {
-  aspect-ratio: 1;
   width: 100%;
   border: 3px solid #5c5c5c;
   border-radius: 10%;
@@ -56,6 +55,9 @@ body {
   font-family: inherit;
   cursor: pointer;
   display: flex;
+}
+.items {
+  aspect-ratio: 1;
 }
 
 /* Food item numbers aligned to the bottom right */
@@ -165,4 +167,8 @@ body {
 #nothing {
   background-color: rgb(36, 213, 213);
   color: rgb(36, 213, 213);
+}
+#clear,
+#total {
+  grid-column: span 2;
 }
