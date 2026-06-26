@@ -1,8 +1,8 @@
 let total = 0;
 let paid = 0;
 let balance = 0;
-let itemprice = [80, 50, 40, 120, 100, 150, 150, 0, 100, 260];
-let quantity = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+let itemprice = [100, 70, 50, 100, 120, 150, 150, 150, 120, 100, 260, 100];
+let quantity = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 let totalbox = document.querySelector("#total");
 let itemlist = document.querySelectorAll(".items");

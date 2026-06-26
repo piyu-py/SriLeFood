@@ -1,147 +1,168 @@
-body {
-  background-color: #fcf5c7;
-  height: 100vh;
-  margin: 0%;
-  margin-left: 5vw;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+* {
+  box-sizing: border-box;
 }
 
-#foodcontainer {
-  display: grid;
-  grid-template-columns: 30vw 30vw 30vw;
+body {
+  background-color: #fcf5c7;
+  min-height: 100vh;
+  margin: 0;
+  padding: 10px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  display: flex;
+  justify-content: center;
 }
-.items {
-  aspect-ratio: 1;
-  border: 3px solid #5c5c5c;
-  max-width: 30vw;
-  text-align: end;
-  border-radius: 10%;
-  margin: 0.3vw;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-#clear,
-#total {
-  margin: 0.3vw;
-  border-radius: 10%;
-  aspect-ratio: 1;
-  background-color: #ffee93;
-  border: 3px solid #b58d15;
-  max-width: 30vw;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
-#moneycontainer {
-  display: grid;
-  grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
-}
-.notes {
-  border: rgb(94, 94, 167) 2px solid;
-  margin: 0.1vw;
-  border-radius: 5%;
-  background-color: #a0ced9;
-  aspect-ratio: 1/2;
-  max-width: 15vw;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
+
 #caesohcontiner {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  gap: 15px;
 }
-#balance {
-  font-size: x-large;
-  height: 40vw;
-  border-radius: 5%;
-  margin: 2vw;
-  max-width: 86vw;
-}
-#balanceamount {
-  text-align: center;
-}
+
 #balance {
   border: rgb(255, 140, 0) 5px solid;
   display: flex;
   align-items: center;
-  width: 100%;
   justify-content: center;
   background-color: #ffc09f;
+  border-radius: 5%;
+  height: 150px;
+  font-size: x-large;
 }
-#rolls {
-  background: url(images/rolls.svg) no-repeat top left;
-  background-position: center;
-  background-color: #adf7b6;
+
+#balanceamount {
+  text-align: center;
+  margin: 0;
 }
-#patties {
-  background: url(images/patties.svg) no-repeat top left;
-  background-position: center;
-  background-color: #adf7b6;
+
+#foodcontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 }
-#cutlet {
-  background: url(images/cutlet.svg) no-repeat top left;
-  background-position: center;
-  background-color: #adf7b6;
+
+/* Base styles for all buttons in the grid */
+.items,
+#clear,
+#total {
+  aspect-ratio: 1;
+  width: 100%;
+  border: 3px solid #5c5c5c;
+  border-radius: 10%;
+  padding: 8px;
+  font-family: inherit;
+  cursor: pointer;
+  display: flex;
 }
-#sandwich {
-  background: url(images/sandwich.svg) no-repeat top left;
-  background-position: center;
-  background-color: #adf7b6;
+
+/* Food item numbers aligned to the bottom right */
+.items {
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
-#string {
-  background: url(images/string.svg) no-repeat top left;
-  background-position: center;
-  background-color: #adf7b6;
+
+/* Next and Total text perfectly centered */
+#clear,
+#total {
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #ffee93;
+  border-color: #b58d15;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
-#pasta {
-  background: url(images/pasta.svg) no-repeat top left;
-  background-position: center;
-  background-size: 60%;
-  background-color: #adf7b6;
+
+#moneycontainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
 }
-#noodles {
-  background: url(images/noodles.svg) no-repeat top left;
-  background-position: center;
-  background-size: 80%;
-  background-color: #adf7b6;
+
+.notes {
+  border: rgb(94, 94, 167) 2px solid;
+  border-radius: 5%;
+  background-color: #a0ced9;
+  aspect-ratio: 1/2;
+  width: 100%;
+  font-family: inherit;
+  cursor: pointer;
 }
-#rice {
-  background: url(images/rice.svg) no-repeat top left;
-  background-size: 70%;
-  background-position: center;
-  background-color: #adf7b6;
-}
-#icecream {
-  background: url(images/icecream.svg) no-repeat top left;
-  background-position: center;
-  background-size: 60%;
-  background-color: #adf7b6;
-}
-#hotdawg {
-  background: url(images/hotdog.svg) no-repeat top left;
-  background-position: center;
-  background-color: #adf7b6;
-  background-size: 70%;
-}
+
 #credits {
   background-color: beige;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Backgrounds for items */
+#rolls {
+  background: #adf7b6 url(images/rolls.svg) no-repeat center;
+}
+#patties {
+  background: #adf7b6 url(images/patties.svg) no-repeat center;
+}
+#cutlet {
+  background: #adf7b6 url(images/cutlet.svg) no-repeat center;
+}
+#sandwich {
+  background: #adf7b6 url(images/sandwich.svg) no-repeat center;
+}
+#string {
+  background: #adf7b6 url(images/string.svg) no-repeat center;
+}
+#pasta {
+  background: #adf7b6 url(images/pasta.svg) no-repeat center;
+  background-size: 60%;
+}
+#noodles {
+  background: #adf7b6 url(images/noodles.svg) no-repeat center;
+  background-size: 80%;
+}
+#rice {
+  background: #adf7b6 url(images/rice.svg) no-repeat center;
+  background-size: 70%;
+}
+#icecream {
+  background: #adf7b6 url(images/icecream.svg) no-repeat center;
+  background-size: 60%;
+}
+#hotdawg {
+  background: #adf7b6 url(images/hotdog.svg) no-repeat center;
+  background-size: 70%;
 }
 #chickpea {
-  background: url(images/chickpea.svg) no-repeat top left;
-  background-position: center;
-  background-color: #adf7b6;
+  background: #adf7b6 url(images/chickpea.svg) no-repeat center;
   background-size: 70%;
 }
 #sinisambal {
-  background: url(images/sinisambola.svg) no-repeat top left;
-  background-position: center;
-  background-color: #adf7b6;
+  background: #adf7b6 url(images/sinisambola.svg) no-repeat center;
   background-size: 70%;
 }
 #kurakkan {
-  background: url(images/kurakkan.png) no-repeat top left;
-  background-position: center;
-  background-color: #adf7b6;
+  background: #adf7b6 url(images/kurakkan.png) no-repeat center;
   background-size: 70%;
+}
+#thoose {
+  background: #adf7b6 url(images/dosa.png) no-repeat center;
+  background-size: 60%;
+}
+#shawarma {
+  background: #adf7b6 url(images/shawarma.png) no-repeat center;
+  background-size: 60%;
+}
+#kanda {
+  background: #adf7b6 url(images/kanda.png) no-repeat center;
+  background-size: 60%;
+}
+#nothing {
+  background-color: rgb(36, 213, 213);
+  color: rgb(36, 213, 213);
 }
