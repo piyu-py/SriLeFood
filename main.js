@@ -1,7 +1,7 @@
 let total = 0;
 let paid = 0;
 let balance = 0;
-let itemprice = [100, 70, 50, 100, 120, 150, 150, 150, 120, 100, 260, 100];
+let itemprice = [100, 70, 40, 100, 120, 150, 150, 150, 120, 100, 260, 100];
 let quantity = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 let totalbox = document.querySelector("#total");
